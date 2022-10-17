@@ -15,7 +15,7 @@ function calcula_idade($nascimento) {
     //Cria um array com os campos da data de nascimento 
     $data=date('d/m/Y'); $data=explode('/',$data); 
     //Cria um array com os campos da data atual 
-    $anos=$data[2]-$nascimento[0]; 
+    $anos=$data[2]-$nascimento[2]; 
     //ano atual - ano de nascimento 
     if($nascimento[1] > $data[1]) return $anos-1; 
     //Se o mês de nascimento for maior que o mês atual, diminui um ano 
@@ -50,12 +50,14 @@ function classificacao_imc($imc) {
     }
 }
     public function imc() {
+
+    $valores[] = "";    
     $valores["nome"] = $_GET["nome"];
     $valores["idade"]= $this->calcula_idade($_GET["datanascimento"]);
     $valores["peso"] = $_GET["peso"];
     $valores["altura"] = $_GET["altura"];
     $valores["imc"] = $this->calcula_imc($valores["peso"],$valores["altura"]);
-    $valores["classificacaoimc"] = $this->classificacao_imc($valores['imc']);
+    $valores["classificacaoimc"] = $this->classificacao_imc($valores["imc"]);
     return $valores;
 }
 }
