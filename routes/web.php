@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('saude');
-});
+use App\Http\Controllers\SaudeController;
+Route::get('/',[SaudeController::class,'index']);
+Route::get('/saude',[SaudeController::class,'saude']);
+
