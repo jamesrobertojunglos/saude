@@ -15,7 +15,7 @@ function calcula_idade($nascimento) {
     //Cria um array com os campos da data de nascimento 
     $data=date('d/m/Y'); $data=explode('/',$data); 
     //Cria um array com os campos da data atual 
-    $anos=$data[2]-$nascimento[2]; 
+    $anos=$data[2]-$nascimento[0]; 
     //ano atual - ano de nascimento 
     if($nascimento[1] > $data[1]) return $anos-1; 
     //Se o mês de nascimento for maior que o mês atual, diminui um ano 
