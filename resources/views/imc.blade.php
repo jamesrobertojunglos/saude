@@ -2,7 +2,7 @@
 @section('title','Calculo IMC - Resultado')
 @section('apresentacao')
 
-   <p>Veja qual sua classificação ocom relação ao seu IMC</p>
+   <p>Veja qual sua classificação com relação ao seu IMC</p>
    @endesection
    @section('content')
 
@@ -13,8 +13,11 @@
     <p>Altura: {{$resultadoimc["altura"]}}</p>
     <p>IMC: {{$resultadoimc["imc"]}} - {{$resultadoimc["classificacaoimc"]}}</p>
 </div>
-
+    
+    <a href="{{url('/')}}">Voltar</a>
+    
     </main>
+    
     
 </body>
 </html>
