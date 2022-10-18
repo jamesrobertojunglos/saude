@@ -11,7 +11,7 @@
         <div>
             <h1>Aplicação Saúde - Cálculo IMC</h1>
             <p>Esta aplicação realiza o calculo do IMC de uma pessoa informando 
-                sua classificação com relação a este calcúlo.</p>   
+                sua classificação com relação a este cálculo.</p>   
         </div>
         <div>
             <form action="{{url('/imc')}}" method ="get">
