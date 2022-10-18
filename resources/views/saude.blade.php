@@ -10,7 +10,7 @@
     <main>
         <div>
             <h1>Aplicação Saúde - Cálculo IMC</h1>
-            <p>Esta aplicação realiza o calculo do IMC de uma pessoa informando 
+            <p>Esta aplicação realiza o cálculo do IMC de uma pessoa informando 
                 sua classificação com relação a este cálculo.</p>   
         </div>
         <div>
