@@ -1,7 +1,8 @@
 @extends('layout.app')
 @section('title','Análise Sono')
 @section('apresentacao')
-    <p>Esta aplicação realização a análise do sono de uma pessoa, informando sua classificação com relação a este cálculo.</p>
+    <p>Esta aplicação realiza a análise do sono de uma pessoa, 
+        informando sua classificação com relação a este cálculo.</p>
 @endsection
 @section('content')
     <div>

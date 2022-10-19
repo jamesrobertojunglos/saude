@@ -1,3 +1,8 @@
-body {
-   background-color: rgb(248, 243, 238); 
+.apresentacao{
+   background-color: rgb(25, 124, 55); 
+}
+
+.conteudo {
+   background-color: rgb(149, 183, 64);
+   padding: 10px;
 }

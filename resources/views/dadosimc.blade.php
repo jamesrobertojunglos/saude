@@ -1,7 +1,8 @@
 @extends('layout.app')
 @section('title','Cálculo IMC')
 @section('apresentacao')
-    <p>Esta aplicação realização o cálculo do IMC de uma pessoa, informando sua classificação com relação a este cáculo.</p>
+    <p>Esta aplicação realiza o cálculo do IMC de uma pessoa, 
+        informando sua classificação com relação a este cáculo.</p>
 @endsection
 @section('content')
     <div>
